@@ -1,0 +1,29 @@
+{
+  "name": "lianlian/sdkv3",
+  "description": "lian lian pay sdk",
+  "type": "library",
+  "keywords": [
+    "lianlianpay"
+  ],
+  "homepage": "https://acquiring.lianlianpay.com",
+  "readme": "https://doc.lianlianpay.com/download/api3sdk/phpsdk",
+  "authors": [
+    {
+      "name": "Kris",
+      "email": "ga@lianlianpay.com",
+      "homepage": "https://acquiring.lianlianpay.com",
+      "role": "developer"
+    }
+  ],
+  "license": ["Apache-2.0"],
+  "require": {
+    "php": "7.*"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "lianlianpay\\v3sdk\\": "src"
+    }
+  }
+}
