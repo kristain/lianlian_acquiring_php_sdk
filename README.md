@@ -11,7 +11,7 @@ V3sdk requires PHP version 7 or greater
 Install the latest version with
 
 ```bash
-$ composer require lianlian/sdkv3
+$ composer require lianlian_acquiring/sdkv3
 ```
 
 ### Composer
@@ -21,7 +21,7 @@ Make sure you have the composer bin dir in your PATH. The default value is `~/.c
 ```json
 {
     "require": {
-        "lianlian/sdkv3": "1.0.*"
+        "lianlian_acquiring/sdkv3": "1.0.*"
     }
 }
 ```
