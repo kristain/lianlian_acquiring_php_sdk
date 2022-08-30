@@ -1,6 +1,6 @@
 {
-  "name": "lianlian/sdkv3",
-  "description": "lian lian pay sdk",
+  "name": "lianlian/acquiring_sdkv3",
+  "description": "LianLian Global Acquiring PHP SDK",
   "type": "library",
   "keywords": [
     "lianlianpay"
