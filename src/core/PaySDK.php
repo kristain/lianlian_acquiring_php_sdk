@@ -14,6 +14,7 @@ class PaySDK
     public $get_token_url = '';
     public $private_key = '';
     public $public_key = '';
+    public $shipping_upload_url = '';
 
     //创建静态私有的变量保存该类对象
     private static $instance;

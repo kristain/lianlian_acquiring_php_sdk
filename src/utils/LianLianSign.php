@@ -77,7 +77,9 @@ class LianLianSign
             "\n-----END RSA PRIVATE KEY-----";
         $key = openssl_get_privatekey($privateKey);
         openssl_sign($toSign, $signature, $key);
-        openssl_free_key($key);
+        if (PHP_VERSION_ID < 80000) {
+            openssl_free_key($privateKey);
+        }
         $sign = base64_encode($signature);
         return $sign;
     }
