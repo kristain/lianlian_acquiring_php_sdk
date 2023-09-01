@@ -14,4 +14,5 @@ class Card
     public $card_expiration_month;
     public $cvv;
     public $billing_address;
+    public $card_token;
 }
